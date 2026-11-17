@@ -9,7 +9,7 @@ Qualifiers = "e28:p3915:debug"
   Action = DefineFQ
       envSet(LARCV2_FQ_DIR, ${UPS_PROD_DIR}/${UPS_PROD_FLAVOR}_e28_p3915_debug)
   Action = GetProducts
-      setupRequired( root v6_28_12 -q +e28:+p3915:+debug )
+      setupRequired( root v6_30_06 -q +e28:+p3915:+debug )
   
 
 
@@ -18,7 +18,7 @@ Qualifiers = "e28:p3915:prof"
   Action = DefineFQ
       envSet(LARCV2_FQ_DIR, ${UPS_PROD_DIR}/${UPS_PROD_FLAVOR}_e28_p3915_prof)
   Action = GetProducts
-      setupRequired( root v6_28_12 -q +e28:+p3915:+prof )
+      setupRequired( root v6_30_06 -q +e28:+p3915:+prof )
   
 
 
